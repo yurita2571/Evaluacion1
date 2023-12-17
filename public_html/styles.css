@@ -1,0 +1,71 @@
+header{/* estilo de barra de mi perfil personal*/
+    background-color: #59DE27;
+    text-align: center;
+    padding: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+	border: 10px solid #E0A9DB; /*borde de la paguina*/
+}
+
+.profile-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img { /* Estilos de la imagen */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h2 {/* Estilos del nombre */
+    color: #028A95;
+    font-size: 30px;
+}
+h3 {/* Estilos del nombre */
+    color: #59DE27;
+    font-size: 24px;
+}
+
+p {/* Estilos de la descripción */
+    margin: 10px 0;
+}
+
+
+ul {/* Estilos de la lista de habilidades */
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+	
+}
+
+.social-links a {/* Agrega estilos para los enlaces a redes sociales */
+    display: flex;   
+    flex-direction: column;
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.1s;
+    margin: 10px; /* Espacio entre los enlaces */
+
+}
+
+.social-links a:hover {
+    color: #DC1426;
+}
+
+footer {/*estilo de barra derechos reservados*/
+    background-color: #06C8B9;
+    color: white;
+    text-align:center;
+    padding: 10px;
+
+}
